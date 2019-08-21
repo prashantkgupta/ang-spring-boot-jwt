@@ -1,4 +1,4 @@
-package com.javainuse.controller;
+package com.pras.controller;
 
 import java.util.Objects;
 
@@ -16,9 +16,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.javainuse.config.JwtTokenUtil;
-import com.javainuse.model.JwtRequest;
-import com.javainuse.model.JwtResponse;
+import com.pras.config.JwtTokenUtil;
+import com.pras.model.JwtRequest;
+import com.pras.model.JwtResponse;
 
 @RestController
 @CrossOrigin
